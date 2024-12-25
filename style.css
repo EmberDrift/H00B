@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+HU:wght@100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yuji+Mai&display=swap');
+ *{
+    font-family: "DM Sans", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+background:linear-gradient(245.59deg, #4d9559 0%, #38703d 28.53%, #133917 75.52%);
+width: 100%;
+height: 100vh;
+display: block;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 10%;
+}
+.H{
+    text-decoration: none;
+    font-size:30px;
+    font-weight:500;
+    margin: 20px ;
+    color: white;
+}
+a{
+    margin:35px  15px;
+    display: inline-block;
+    justify-content: space-between;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+section.C{
+    display: flex;
+}
+section.K{
+    background-color:transparent;
+    width: 30%;
+    height: 50%;
+    margin:50px 20%;
+    padding-bottom: 20px;
+}
+p{
+    color: white;
+    font-size: 15px;
+}
+h5{
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+}
+h1{
+    color: white;
+    font-size: 90px;
+    font-weight: 700;
+    font-style:italic ;
+}
+div{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: flex-start;
+
+}
+div .ob1{
+    width: 110px;
+    height: 40px;
+    left: 0;
+    top: 0;
+    border: 2px solid rgb(255, 255, 255, 0.1);
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 20;
+    text-transform: capitalize;
+    background-color: #38703d;
+    transition: all .55s  ease;
+}
+
+
+div .ob2{
+    position: relative;
+    width: 200px;
+    height: 40px;
+    left: 0;
+    top: 0;
+    border: 2px solid rgb(255, 255, 255, 0.1);
+    display: block;
+    text-align: center;
+    border-radius: 20px;
+    font-weight: 25;
+    text-transform: capitalize;
+    transition: all .55s  ease;
+}
+.T a:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    transform: translateX(8px);
+}
+.B{
+    margin-left: -210px;
+    margin-top: 40px;
+}
+ .B img{
+    width: 450px;
+    height: 400px;
+    background-color: transparent;
+}
+.P{
+    display: flex;
+    margin-left: -1000px;
+    margin-top: 150px;
+    flex-direction: column;
+}
+.P a{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    margin:5px ;
+    text-align: center;
+}
+div i {
+    position: relative; 
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+div i.bx-play {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+}
